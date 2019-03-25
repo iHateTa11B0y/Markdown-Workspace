@@ -1,8 +1,8 @@
 ## AlexNet
 **Training**
-Resize(256)+CenterCrop(256)+RandomCrop(224)
-Augmentation:RandomHorizontalFlip()
-Normalize: SubMean()
+Resize(256)+CenterCrop(256)+RandomCrop(224)<br>
+Augmentation:RandomHorizontalFlip()<br>
+Normalize: SubMean()<br>
 **Infering**
 Resize(256)+CenterCrop(256)+SubMean()+5 patch Crop(224)
 
@@ -20,5 +20,5 @@ RandomResizedCrop
 # Resnet
 Resize(S) ($S\in [256,480]$) + RandomCrop(224) + RandomHorizontalFlip() + SubMean()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NDI2NDAzXX0=
+eyJoaXN0b3J5IjpbLTY5NTg0ODg0N119
 -->
